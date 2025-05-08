@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(241, 241, 252);
+}
+
+.container {
+
+    width: 100vw;
+    margin: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 130px;
+}
+
+.logo img {
+    height: 50px;
+
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 23px;
+}
+
+.container ul li {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.container ul li span {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+section {
+    height: 500px;
+    margin: 67px;
+    gap: 23px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.first p {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.first span {
+    font-size: 24px;
+    text-align: center;
+    width: 68vw;
+}
+
+.download {
+    margin: 33px;
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    gap: 15px;
+}
+
+.download img {
+    height: 48px;
+}
+
+.item {
+    position: relative;
+}
+
+.btn {
+    border: none;
+    background-color: #00b6d1;
+    height: 46px;
+    width: 22vw;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+    margin: 0 auto;
+    ;
+}
+
+.sml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 33px;
+    background-color: #5cb85c;
+    ;
+}
+
+button .btn-download {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.item-lang p {
+    position: relative;
+    top: 25px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+span img {
+    height: 23px;
+    width: 23px;
+}
+
+.second {
+    max-width: 70vw;
+    margin: auto;
+
+}
+
+.item {
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+}
+
+.item-lang {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 56px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1126px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
